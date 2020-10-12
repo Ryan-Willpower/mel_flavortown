@@ -5,6 +5,7 @@ const style = css`
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    font-size: 16px;
   }
 `
 

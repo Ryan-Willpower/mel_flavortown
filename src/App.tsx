@@ -1,7 +1,14 @@
 import React from "react"
 
+import LeftMenu from "./left-menu"
+
 const App: React.FC = () => {
-  return <div>data will be here</div>
+  return (
+    <div>
+      <LeftMenu />
+      data will be here
+    </div>
+  )
 }
 
 export default App
