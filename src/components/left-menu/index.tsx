@@ -12,6 +12,8 @@ const Container = styled.div`
   display: flex;
   flex-flow: column;
   padding: 20px 0;
+  top: 0;
+  left: 0;
 `
 
 const Icon = styled.div`
