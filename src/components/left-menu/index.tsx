@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
+import { Link } from "react-router-dom"
 
 const Container = styled.div`
   box-sizing: border-box;
@@ -25,7 +26,7 @@ const MenuList = styled.div`
   flex-flow: column;
 `
 
-const MenuItem = styled.a`
+const MenuItem = styled(Link)`
   color: #eee;
   text-decoration: none;
   padding: 20px;
@@ -42,8 +43,8 @@ const LeftMenu: React.FC = () => {
     <Container>
       <Icon>Flavor Town</Icon>
       <MenuList>
-        <MenuItem href="#">Home</MenuItem>
-        <MenuItem href="#">Add Data</MenuItem>
+        <MenuItem to="/">Home</MenuItem>
+        <MenuItem to="/add">Add Data</MenuItem>
       </MenuList>
     </Container>
   )
