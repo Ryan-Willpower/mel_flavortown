@@ -29,7 +29,7 @@ const MenuItem = styled.a`
   color: #eee;
   text-decoration: none;
   padding: 20px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 
   :hover {
     background: #eee;
